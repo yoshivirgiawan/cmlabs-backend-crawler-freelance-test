@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- required meta -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- #favicon -->
+        <link rel="shortcut icon" href="assets/images/logo-3.png" type="image/x-icon">
+        <!-- #title -->
+        <title>Yoshi Virgiawan | Back End Developer</title>
+        <!-- #keywords -->
+        <meta name="keywords" content="personal, portfolio, html">
+        <!-- #description -->
+        <meta name="description" content="I am a professional software engineer with several years of work experience. Right now i am interest in backend development because I like to sharpen my logic to make a creation and solve problems. As a software engineer i can spearheaded the design system and implementation of innovative software solutions as a Results-driven and detail-oriented. Implemented the entire software development lifecycle, from concept to delivery, resulting in seamless project execution and successful product launches. I am experienced in collaboration across diverse teams to ensure project launch successfully. I have commitment to ongoing technical skill development and staying curious with industry trending technologies.">
+        <!-- ==== css dependencies start ==== -->
+        <!-- bootstrap five css -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- bootstrap icons css -->
+        <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+        <!-- material icons css -->
+        <link rel="stylesheet" href="assets/css/material-icons.css">
+        <!-- font awesome six css -->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!-- nice select css -->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!-- magnific popup css -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- slick css -->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <!-- odometer css -->
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <!-- ==== / css dependencies end ==== -->
+        <!-- main css -->
+        <link rel="stylesheet" href="assets/css/main.min.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+                <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!-- ==== preloader start ==== -->
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
+        <!-- ==== / preloader end ==== -->
+        <!-- ==== mouse cursor drag start ==== -->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner">
+            <span>Drag</span>
+        </div>
+        <!-- ==== / mouse cursor drag end ==== -->
+        <!-- ==== page wrapper start ==== -->
+        <div class="my-app">
+            <!-- ==== header start ==== -->
+            <header class="header secondary-header">
+                <div class="primary-navbar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <nav class="navbar p-0">
+                                    <div class="navbar__profile d-none d-xl-block">
+                                        <a href="#home" aria-label="home page" title="logo">
+                                            <img src="assets/images/logo-2.png" alt="Images">
+                                        </a>
+                                    </div>
+                                    <div class="navbar__logo d-block d-xl-none">
+                                        <a
+                                            href="#home"
+                                            aria-label="home page"
+                                            title="logo"
+                                            class="logo"
+                                        >
+                                            <img src="assets/images/logo-2.png" alt="Images" style="height: 50px;">
+                                        </a>
+                                    </div>
+                                    <div class="navbar__menu">
+                                        <ul class="navbar__list">
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#home">Home</a>
+                                            </li>
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#about">About Me</a>
+                                            </li>
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#skills">Skills</a>
+                                            </li>
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#experiences">Experiences</a>
+                                            </li>
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#achievements">Achievements</a>
+                                            </li>
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#portfolio">Portfolio</a>
+                                            </li>
+                                            <li class="navbar__item nav-fade">
+                                                <a href="#contact">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="navbar__options">
+                                        <button class="open-mobile-menu animated-bar d-flex d-xl-none" aria-label="toggle mobile menu" title="open mobile menu">
+                                            <span class="bar-line"></span>
+                                        </button>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- ==== mobile menu start ==== -->
+            <div class="mobile-menu d-block d-xl-none">
+                <nav class="mobile-menu__wrapper">
+                    <div class="mobile-menu__header nav-fade">
+                        <div class="mobile-menu__logo"></div>
+                        <button aria-label="close mobile menu" class="close-mobile-menu">
+                            <i class="bi bi-x-lg"></i>
+                        </button>
+                    </div>
+                    <div class="mobile-menu__list"></div>
+                    <div class="mobile-menu__social social nav-fade">
+                        <a
+                            href="https://www.linkedin.com/in/achmed-yoshi-virgiawan"
+                            target="_blank"
+                            aria-label="share us on linkedin"
+                            title="linkedin"
+                            class="fb"
+                        >
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a
+                            href="https://github.com/yoshivirgiawan"
+                            target="_blank"
+                            aria-label="share us on github"
+                            title="github"
+                            class="tw"
+                        >
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a
+                            href="https://www.instagram.com/yoshivirgiawan"
+                            target="_blank"
+                            aria-label="share us on instagram"
+                            title="instagram"
+                            class="in"
+                        >
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="mobile-menu__backdrop"></div>
+            <!-- ==== / mobile menu end ==== -->
+            <!-- ==== / header end ==== -->
+            <div id="smooth-wrapper">
+                <div id="smooth-content">
+                    <main>
+                        <!-- ==== banner start ==== -->
+                        <section class="banner-four bg-img" id="home" data-background="assets/images/banner/banner-four-bg.png">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="banner-four-inner pb-120">
+                                            <div class="row">
+                                                <div class="col-12 col-xxl-9">
+                                                    <div class="banner__content-four text-start">
+                                                        <h1 class="title-xxl title-anim">
+                                                            Hello,
+                                                            <br>
+                                                            I am Achmed Yoshi Virgiawan.
+                                                            <br>
+                                                        </h1>
+                                                        <h2 class="colored-text">Back End Developer</h2>
+                                                        <div class="pt-120 banner-content__inner">
+                                                            <div class="content">
+                                                                <h4 class="title-md title-anim">
+                                                                    From Vision to Reality, Create More Creativity
+                                                                </h4>
+                                                            </div>
+                                                            <div class="arrow-wrapper">
+                                                                <span class="arrow"></span>
+                                                            </div>
+                                                            <a href="#about" class="btn btn--secondary w-100 justify-content-center">Want to know me more ?</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="assets/images/personal-photo.png" alt="Image" class="banner-four-thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ==== banner end ==== -->
+                        <!-- ==== drive section start ==== -->
+                        <section class="pt-140 banner-two" id="about">
+                            <div class="container">
+                                <div class="row gaper">
+                                    <div class="col-12 col-lg-8 col-xxl-9">
+                                        <div class="banner-two__content">
+                                            <div class="banner-two__group">
+                                                <div class="banner-two__left">
+                                                    <h1 class="title-xxl fw-7">
+                                                        More About Me
+                                                    </h1>
+                                                    <p class="text-xs text-senary">
+                                                        <span class="text-white yearExperience"></span><span class="text-white">+</span>
+                                                        years of experience as <span class="label-text ms-1"><b>Software Engineer</b></span>
+                                                    </p>
+                                                </div>
+                                                <div class="banner-two__right">
+                                                    <p class="text-senary">I'm on</p>
+                                                    <div class="social">
+                                                        <a
+                                                            href="https://github.com/yoshivirgiawan"
+                                                            target="_blank"
+                                                            aria-label="share us on github"
+                                                            title="github"
+                                                        >
+                                                            <i class="fa-brands fa-github"></i>
+                                                        </a>
+                                                        <a
+                                                            href="https://www.linkedin.com/in/achmed-yoshi-virgiawan"
+                                                            target="_blank"
+                                                            aria-label="share us on linkedin"
+                                                            title="linkedin"
+                                                        >
+                                                            <i class="fa-brands fa-linkedin-in"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <div class="banner-content__paragraph">
+                                                <p>
+                                                    Hi, I am Yoshi Virgiawan
+                                                    <br><br>
+                                                    I am a professional software engineer with <span class="yearExperience"></span> years of work experience. Right now i am interest in backend development because I like to sharpen my logic to make a creation and solve problems.
+                                                    <br><br>
+                                                    As a software engineer i can spearheaded the design system and implementation of innovative software solutions as a Results-driven and detail-oriented. Implemented the entire software development lifecycle, from concept to delivery, resulting in seamless project execution and successful product launches. I am experienced in collaboration across diverse teams to ensure project launch successfully. I have commitment to ongoing technical skill development and staying curious with industry trending technologies.
+                                                </p>
+                                            </div>
+                                            <hr>
+                                            <div class="banner-content__footer">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://maps.app.goo.gl/FprG3CjpBKNA3jSt8" target="_blank">
+                                                            <i class="fa-solid fa-location-dot"></i>
+                                                            Lives in Lamongan, Indonesia
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="mailto:achmedyoshivirgiawan@gmail.com" class="text-lowercase">
+                                                            <i class="fa-regular fa-envelope"></i>
+                                                            achmedyoshivirgiawan@gmail.com
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <button id="downloadCv">
+                                                    Download Resume
+                                                    <i class="fa-solid fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-4 col-xxl-3">
+                                        <div class="banner-two__sidebar">
+                                            <h4 class="title-md fw-7">Tools</h4>
+                                            <div class="side-content">
+                                                <div class="tags">
+                                                    <a href="#">Figma</a>
+                                                    <a href="#">Visual Studio Code</a>
+                                                    <a href="#">Notion</a>
+                                                    <a href="#">Jira</a>
+                                                    <a href="#">Trello</a>
+                                                    <a href="#">GitLab</a>
+                                                    <a href="#">GitHub</a>
+                                                    <a href="#">Postman</a>
+                                                </div>
+                                            </div>
+                                            <h4 class="title-md fw-7">Languages</h4>
+                                            <div class="side-content">
+                                                <ul>
+                                                    <li>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        Indonesia /
+                                                        <span>Fluent</span>
+                                                    </li>
+                                                    <li>
+                                                        <i class="fa-solid fa-check"></i>
+                                                        English /
+                                                        <span>Passive</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <h4 class="title-md fw-7">Education</h4>
+                                            <div class="side-content">
+                                                <div class="d-flex">
+                                                    <p>
+                                                        <i class="fa-solid fa-graduation-cap"></i>
+                                                    </p>
+                                                    <div>
+                                                        <p class="text-sm">Diploma of Informatics Engineering</p>
+                                                        <p class="text-xs">Electronic Engineering Polytechnic Institute of Surabaya (EEPIS)</p>
+                                                        <p class="text-xs">2019-2022</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ==== / drive section end ==== -->
+                        <!-- ==== / skills section start ==== -->
+                        <section class="expertise fade-wrapper" id="skills">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="section__header text-center">
+                                            <span class="sub-title text-capitalize">explore my expertise !</span>
+                                            <h2 class="title-xl fw-5 reveal-title">My Skills</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gaper justify-content-center">
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/laravel.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">Laravel</h4>
+                                                <p class="text-quaternary">Expert</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/php.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">PHP</h4>
+                                                <p class="text-quaternary">Expert</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/golang.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">Go</h4>
+                                                <p class="text-quaternary">Intermediate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/javascript.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">JavaScript</h4>
+                                                <p class="text-quaternary">Expert</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/express-js.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">Express.js</h4>
+                                                <p class="text-quaternary">Intermediate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/nestjs.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">NestJS</h4>
+                                                <p class="text-quaternary">Intermediate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/html.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">HTML</h4>
+                                                <p class="text-quaternary">Expert</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/css.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">CSS</h4>
+                                                <p class="text-quaternary">Expert</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/mysql.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">MySQL</h4>
+                                                <p class="text-quaternary">Proficient</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/postgresql.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">PostgreSQL</h4>
+                                                <p class="text-quaternary">Intermediate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-lg-3 col-xxl-2">
+                                        <div class="expertise__single text-center fade-top">
+                                            <div class="thumb">
+                                                <img src="assets/images/expertise/git.png" alt="Image">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title-md">Git</h4>
+                                                <p class="text-quaternary">Proficient</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ==== / skills section end ==== -->
+                        <!-- ==== recent start ==== -->
+                        <section class="pt-120 fixed-content experience appear-wrapper" id="experiences">
+                            <div class="container">
+                                <div class="row gaper">
+                                    <div class="col-12 col-lg-5">
+                                        <div class="section__content">
+                                            <span class="sub-title text-capitalize">My Work Experience</span>
+                                            <h2 class="title-xl title-anim">
+                                                With More Experience
+                                                More Lessons can be Learned
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <div class="recent__thumb">
+                                            <div class="experience__single appear-down">
+                                                <span>2023 Feb - 2023 Dec</span>
+                                                <h4 class="title-sm text-capitalize">Co-Founder<span class="experience__type ms-2"><b>Full Time</b></span></h4>
+                                                <p class="text-capitalize text-quaternary">PT. Texio Mitra Digitalisasi Indonesia</p>
+                                                <p class="text-septenary">
+                                                    <ul>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Spearheaded the inception and successful launch of the company and driving all strategic initiatives
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Established business relationships to drive growth and expansion opportunities
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Implemented efficient operational and business processes
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Implemented efficient method for developing project
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Leading internal teams for building successfully project
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Managed the creation of the company's website, wrote content and directed design
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Building REST API using laravel
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Designing ERD for scalable & stable system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Experienced in using Git for version control
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                            <div class="experience__single appear-down">
+                                                <span>2023 May - 2023 Dec</span>
+                                                <h4 class="title-sm text-capitalize">Full Stack Developer<span class="experience__type ms-2"><b>Freelance</b></span></h4>
+                                                <p class="text-capitalize text-quaternary">Intive Studio</p>
+                                                <p class="text-septenary">
+                                                    <ul>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Worked collaboratively with designers, developers, and product managers on development processes.
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Collaborated with FE & Mobile engineers to design REST APIs
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Designing ERD for scalable & stable system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Experienced in using Git for version control
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Building REST API using laravel
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Developing CBT game based website
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                            <div class="experience__single appear-down">
+                                                <span>2022 Dec - 2023 Sep</span>
+                                                <h4 class="title-sm text-capitalize">Full Stack Developer<span class="experience__type ms-2"><b>Full Time</b></span></h4>
+                                                <p class="text-capitalize text-quaternary">Agros Indonesia</p>
+                                                <p class="text-septenary">
+                                                    <ul>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Worked collaboratively with designers, developers, and product managers on development processes.
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Developing ERP feature
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Collaborated with FE engineers to design REST APIs
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Building REST API using laravel
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Designing ERD for scalable & stable system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Experienced in using Git for version control
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Improving security Open API using NestJS
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Integrate system with bank service
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Create payment gateway service for internal payment system
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                            <div class="experience__single appear-down">
+                                                <span>2021 Oct - 2022 Dec</span>
+                                                <h4 class="title-sm text-capitalize">Full Stack Developer<span class="experience__type ms-2"><b>Full Time</b></span></h4>
+                                                <p class="text-capitalize text-quaternary">Intive Studio</p>
+                                                <p class="text-septenary">
+                                                    <ul>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Worked collaboratively with designers, developers, and product managers on development processes.
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Collaborated with FE & Mobile engineers to design REST APIs
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Designing ERD for scalable & stable system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Experienced in using Git for version control
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Building REST API using laravel
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Developing ticketing website system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Developing CBT game based website
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Developing ERP website system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Developing Crowdfunding application
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                            <div class="experience__single appear-down">
+                                                <span>2021 Jun - 2021 Nov</span>
+                                                <h4 class="title-sm text-capitalize">Back End Developer<span class="experience__type ms-2"><b>Freelance</b></span></h4>
+                                                <p class="text-capitalize text-quaternary">Cahya Education</p>
+                                                <p class="text-septenary">
+                                                    <ul>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Worked collaboratively with designers, developers, and product managers on development processes.
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Collaborated with FE engineers to design REST APIs
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Designing ERD for scalable & stable system
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Create REST API to connect mobile app with backend using laravel
+                                                        </li>
+                                                        <li class="d-flex align-items-center gap-3 mb-3">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            Create landing page using html, css, bootstrap
+                                                        </li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                            <div class="experience__single appear-down">
+                                                <span>2021 Jun - 2021 Sep</span>
+                                                <h4 class="title-sm text-capitalize">Full Stack Developer<span class="experience__type ms-2"><b>Internship</b></span></h4>
+                                                <p class="text-capitalize text-quaternary">PT Digital Entropy Venture</p>
+                                                <p class="text-septenary">
+                                                    As a full stack developer when creating a website information or contacts from non-hospital medical personnel to help the community deal with the covid-19 pandemic
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ==== / recent end ==== -->
+                        <!-- ==== awards section start ==== -->
+                        <section class="awards pt-120" id="achievements">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12">
+                                        <div class="section__header--secondary">
+                                            <div class="row align-items-center gaper">
+                                                <div class="col-12 col-lg-6">
+                                                    <div class="section__header mb-0 text-center text-lg-start">
+                                                        <h2 class="title-xl title-anim">My Achievements</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-6">
+                                                    <div class="slide-dots awards-dots"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="awards__slider">
+                                            <div class="awards__slider-single">
+                                                <div class="bn-about-thumb">
+                                                    <img src="assets/images/achievements/fpc.jpg" alt="Image">
+                                                </div>
+                                                <div class="bn-about__content">
+                                                    <div class="bn-about__content-left">
+                                                        <span>2022 Jul</span>
+                                                        <h3 class="title-lg">1st Place in Final Project Competition</h3>
+                                                        <p class="text-capitalize text-quaternary">Electronic Engineering Polytechnic Institute of Surabaya</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="awards__slider-single">
+                                                <div class="bn-about-thumb">
+                                                    <img src="assets/images/achievements/pmw.png" alt="Image">
+                                                </div>
+                                                <div class="bn-about__content">
+                                                    <div class="bn-about__content-left">
+                                                        <span>2021 Jan</span>
+                                                        <h3 class="title-lg">Passed Funding Entrepreneurial Student Program 2021</h3>
+                                                        <p class="text-capitalize text-quaternary">Electronic Engineering Polytechnic Institute of Surabaya</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="awards__slider-single">
+                                                <div class="bn-about-thumb">
+                                                    <img src="assets/images/achievements/lomba-unesa.png" alt="Image">
+                                                </div>
+                                                <div class="bn-about__content">
+                                                    <div class="bn-about__content-left">
+                                                        <span>2020 Sep</span>
+                                                        <h3 class="title-lg">Runner-up of the National Web Design Competition at the Informatics Champions 2020</h3>
+                                                        <p class="text-capitalize text-quaternary">Universitas Negeri Surabaya</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ==== / awards section end ==== -->
+                        <!-- ==== recent start ==== -->
+                        <section class="pt-120 recent appear-wrapper" id="portfolio">
+                            <div class="container">
+                                <div class="row gaper">
+                                    <div class="col-12 col-lg-5">
+                                        <div class="section__content">
+                                            <span class="sub-title text-capitalize">recent completed project</span>
+                                            <h2 class="title-xl title-anim">
+                                                Portfolio That I Have Made so Far
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <div class="recent__thumb">
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/cahya-education.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">Cahya Education</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">CahyaEducation is a tutoring platform and search for nearby tutoring mentors by implementing a system like Gojek to find the nearest driver.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">MySQL</a>
+                                                        <a href="#">HTML</a>
+                                                        <a href="#">CSS</a>
+                                                        <a href="#">JS</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/truly-choco.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">TrulyChoco</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">TrulyChoho is an E-commerce application for selling chocolate, equipped with online order features, payment gateway, delivery and much more.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">MySQL</a>
+                                                        <a href="#">Flutter</a>
+                                                        <a href="#">Xendit</a>
+                                                        <a href="#">Kirimin Aja</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/coki.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">Coki</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">Coki is a POS management application for food and beverages sales. This application is equipped with a pos system to assist cashiers in carrying out transactions and monitoring sales in a shop, and mobile and website based product purchasing applications.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">Redis</a>
+                                                        <a href="#">MySQL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/vibicloud.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">VibiCloud</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">VibiCloud is a multi-cloud managed services provider company, ViBiCloud provides the best cloud practices and solutions for your needs. This Website is including CMS system for manage content to display in website front user.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">MySQL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/cadbury.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">Cadbury Campaign</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">Cadbury campaign website was created as an event to view the Tulus concert online for people who upload proof of Cadbury purchase. This website is also equipped with a CMS system to sort data uploaded by buyers.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">MySQL</a>
+                                                        <a href="#">Hubspot</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/paras-capital.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">Paras Capital</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">Cadbury campaign website was created as an event to view the Tulus concert online for people who upload proof of Cadbury purchase. This website is also equipped with a CMS system to sort data uploaded by buyers.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">MySQL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/tamconnect.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">Tamconnect</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">This website was created with the aim of conducting personnel assessments from TAM which are packaged in the form of website-based games. This system is also equipped with a CMS system to manage content such as questions at the booth, assessment questions, etc.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">WebGL</a>
+                                                        <a href="#">MySQL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="recent__single appear-down">
+                                                <div class="thumb">
+                                                    <a href="service-single.html">
+                                                        <img src="assets/images/recent/agros.png" alt="Image">
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h3 class="title-lg text-capitalize">
+                                                        <a href="#">Agros</a>
+                                                    </h3>
+                                                    <p class="text-quaternary">This application is used for ordering deliveries of heavy goods. This system is equipped with an internal payment gateway feature created by Agros internal team which is integrated directly with the bank system.</p>
+                                                </div>
+                                                <hr>
+                                                <div class="content-footer">
+                                                    <div class="content-footer__left">
+                                                        <a href="#">Laravel</a>
+                                                        <a href="#">NestJS</a>
+                                                        <a href="#">MySQL</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- ==== / recent end ==== -->
+                    </main>
+                    <!-- ==== footer start ==== -->
+                    <footer class="footer pt-120 footer--five fade-wrapper">
+                        <div class="container" id="contact">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="footer__intro d-flex align-items-center justify-content-center flex-column flex-sm-row justify-content-sm-between flex-wrap">
+                                        <h2 class="title-xl text-quaternary fw-4 title-anim">Contact Me</h2>
+                                        <p class="title-sm">Interested in working with me? Need discuss with me? Or just wanna say hi? I'll happy to receive it</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="footer__five-content">
+                                        <form action="#" method="post" id="contactForm">
+                                            <div class="group-wrapper fade-top">
+                                                <div class="group-input ">
+                                                    <input
+                                                        type="text"
+                                                        name="contact_name"
+                                                        id="contactName"
+                                                        placeholder="Your Name"
+                                                        required
+                                                    >
+                                                </div>
+                                                <div class="group-input ">
+                                                    <input
+                                                        type="email"
+                                                        name="contact_email"
+                                                        id="contactEmail"
+                                                        placeholder="Your Email"
+                                                        required
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="group-input fade-top">
+                                                <input
+                                                    type="text"
+                                                    name="contact_subject"
+                                                    id="contactSubject"
+                                                    placeholder="Subject"
+                                                    required
+                                                >
+                                            </div>
+                                            <div class="group-input fade-top">
+                                                <textarea name="contact_message" id="contactMessage" placeholder="Message" required></textarea>
+                                            </div>
+                                            <div class="section__content-cta">
+                                                <button type="submit" id="contactSubmitButton" class="btn btn--secondary anim-btn">
+                                                    send message
+                                                    <i class="fa-solid fa-circle-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">
+                            <div class="container">
+                                <div class="row align-items-center gaper">
+                                    <div class="col-12">
+                                        <div class="footer__copyright-text text-center">
+                                            <p class="text-senary tertiary-text">
+                                                &copy;
+                                                <span id="copyYear"></span>
+                                                . All Rights Reserved
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="social justify-content-center">
+                                            <a href="https://www.linkedin.com/in/achmed-yoshi-virgiawan" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/yoshivirgiawan" target="_blank">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="https://github.com/yoshivirgiawan" target="_blank">
+                                                <i class="fa-brands fa-github"></i>
+                                            </a>
+                                            <a href="mailto:achmedyoshivirgiawan@gmail.com" target="_blank">
+                                                <i class="fa-solid fa-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- ==== / footer end ==== -->
+                </div>
+            </div>
+        </div>
+        <!-- ==== / page wrapper end ==== -->
+        <!-- ==== scroll to top start ==== -->
+        <button class="progress-wrap" aria-label="scroll indicator" title="go to top">
+            <span></span>
+            <svg
+                class="progress-circle svg-content"
+                width="100%"
+                height="100%"
+                viewBox="-1 -1 102 102"
+            >
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+            </svg>
+        </button>
+        <!-- ==== / scroll to top end ==== -->
+        <div class="toast align-items-center text-white border-0 success" role="alert" aria-live="assertive" aria-atomic="true" id="toast">
+            <div class="d-flex">
+              <div class="toast-body">
+                Hello, world! This is a toast message.
+              </div>
+              <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+        <!-- ==== js dependencies ==== -->
+        <!-- jquery -->
+        <script src="assets/js/jquery-3.7.0.min.js"></script>
+        <!-- bootstrap five js -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- nice select js -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- magnific popup js -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- slick js -->
+        <script src="assets/js/slick.min.js"></script>
+        <!-- odometer js -->
+        <script src="assets/js/odometer.min.js"></script>
+        <!-- scroll smoother js -->
+        <script src="assets/js/ScrollSmoother.min.js"></script>
+        <!-- splittext js -->
+        <script src="assets/js/SplitText.min.js"></script>
+        <!-- scrollto js -->
+        <script src="assets/js/ScrollToPlugin.min.js"></script>
+        <!-- scrolltrigger js -->
+        <script src="assets/js/ScrollTrigger.min.js"></script>
+        <!-- gsap js -->
+        <script src="assets/js/gsap.min.js"></script>
+        <!-- chroma js -->
+        <script src="assets/js/chroma.min.js"></script>
+        <!-- viewport js -->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!-- typed js -->
+        <script src="assets/js/typed.umd.js"></script>
+        <!-- ==== / js dependencies end ==== -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
+        <!-- main js -->
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>
